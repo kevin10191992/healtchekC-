@@ -1,0 +1,111 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kperez\\Desktop\\Ejemplos\\healtchek\\healtcheck\\healtcheck.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kperez\\Desktop\\Ejemplos\\healtchek\\healtcheck\\healtcheck.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kperez\\Desktop\\Ejemplos\\healtchek\\healtcheck\\healtcheck.csproj",
+        "projectName": "healtcheck",
+        "projectPath": "C:\\Users\\kperez\\Desktop\\Ejemplos\\healtchek\\healtcheck\\healtcheck.csproj",
+        "packagesPath": "C:\\Users\\kperez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kperez\\Desktop\\Ejemplos\\healtchek\\healtcheck\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "App.Metrics": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "App.Metrics.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "App.Metrics.AspNetCore.Reporting": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "App.Metrics.Formatters.Json": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "App.Metrics.Reporting.InfluxDB": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "AspNetCore.HealthChecks.UI.InMemory.Storage": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "InfluxDB.Client": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "InfluxDB.Client.Core": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
